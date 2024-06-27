@@ -75,11 +75,11 @@ export const CallToActionView = (props: TextProps) => {
     }, [nativeAd]);
 
     return (
-        <TouchableOpacity>
+        // <TouchableOpacity>
             <Text {...props} ref={callToActionRef}>
                 {nativeAd.callToAction || null}
             </Text>
-        </TouchableOpacity>
+        // </TouchableOpacity>
     );
 };
 
